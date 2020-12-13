@@ -8,11 +8,6 @@ body {
     flex-direction: row;
 }
 
-body {
-    display: flex;
-    min-height: 100vh;
-}
-
 .col-1 {
     background: lightgray;
     flex: 1;

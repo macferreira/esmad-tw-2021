@@ -1,0 +1,58 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: red;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 100px 25px;
+    font-size: 5em;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    vertical-align: top;
+}
+
+.box-1 {
+    transition: background-color 2s linear 0.5s;
+}
+
+.box-1:hover,
+.box-1.logged-in {
+    background-color: purple;
+}
+
+.box-2 {
+    transition: color 3s ease 0.5s;
+}
+
+.box-2:hover {
+    color: black;
+}
+
+.box-3 {
+    transition: width 0.5s ease 3s;
+}
+
+.box-3:hover {
+    width: 200px;
+}
+
+.box-4 {
+    transition: width 0.5s, height 5s;
+}
+
+.box-4:hover {
+    width: 250px;
+    height: 300px;
+    line-height: 300px;
+    transform: rotate(315deg);
+}

@@ -1,4 +1,4 @@
-const num = +prompt("Digite um número?")
+const num = +prompt("Choose a number?")
 
 showMultiplicationNumber(num);
 

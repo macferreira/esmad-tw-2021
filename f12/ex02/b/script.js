@@ -1,11 +1,17 @@
 let n = 10
+let checkPrime;
 
-nextPrime:
 for (let i = 2; i <= n; i++) {
+
+    checkPrime = true; 
     for (let j = 2; j < i; j++) {
-        if (i % j == 0) continue​ nextPrime;
+        if (i % j == 0) {
+            checkPrime = false;
+            break
+        }
     }
 
-    alert(i);​ ​ // a prime
-
+    if (checkPrime) {
+        console.log(i);
+    }
 }

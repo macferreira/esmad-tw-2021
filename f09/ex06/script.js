@@ -3,7 +3,7 @@ function celsiusToFahrenheit(celsius) {
     console.log(celsius + '°C is ' + celsiusInF + '°F')
 }
 
-function fahrenheitToCelsius(fahrenheit) {
+let fahrenheitToCelsius = (fahrenheit) => {
     let fahrenheitInC = ((fahrenheit - 32) * 5) / 9
     console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C')
 }

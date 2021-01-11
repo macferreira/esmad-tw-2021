@@ -18,6 +18,6 @@ function countWordsAndChars(words) {
     console.log('Average number of chars per word: ' + averageCharsInWords)
 }
 
-let wordsArray = ['jogging', 'running', 'simming']
+let wordsArray = ['jogging', 'running', 'swimming']
 console.log('Array: ' + wordsArray);
 countWordsAndChars(wordsArray)

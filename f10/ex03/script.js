@@ -1,12 +1,12 @@
 let choices = ['red', 'orange', 'pink', 'yellow']
 
-// a
+// first output
 /*
 for (let i = 0; i < choices.length; i++) {
     console.log('My #' + (i + 1) + ' choice is ' + choices[i])
 }
 */
-// b
+// second output
 for (let i = 0; i < choices.length; i++) {
 
     let choiceNum = i + 1

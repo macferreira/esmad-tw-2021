@@ -8,5 +8,5 @@ function outputText() {
     outputDiv.innerHTML = outputText
 }
 
-var button = document.getElementById('output-button')
+let button = document.getElementById('output-button')
 button.addEventListener('click', outputText)

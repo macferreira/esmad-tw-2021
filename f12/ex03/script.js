@@ -1,11 +1,10 @@
-const num = +prompt("Choose a number?")
-
-showMultiplicationNumber(num);
-
 function showMultiplicationNumber(num = 1) {
-    let result = ''
+    let result = '';
     for (let i = 1; i <= 10; i++) {
         result += `${num} x ${i} = ${num * i}\n`;
     }
-    alert(result)
+    alert(result);
 }
+
+const num = +prompt("Choose a number?");
+showMultiplicationNumber(num);
